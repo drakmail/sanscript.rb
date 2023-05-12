@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.10"
   spec.add_development_dependency "rubocop", "~> 1.22"
   spec.add_development_dependency "rubocop-rspec", "~> 2.6"
+  spec.add_development_dependency "simplecov"
   spec.add_development_dependency "yard", "~> 0.9"
 
   spec.add_runtime_dependency "activesupport", "~> 6.1.7"
