@@ -6,10 +6,6 @@ rescue LoadError
   nil
 end
 
-require "thermite/tasks"
-Thermite::Tasks.new(optional_rust_extension: true)
-task default: :"thermite:build"
-
 # Ensure missing RSpec development dependency doesn't kill gem install.
 begin
   require "rspec/core/rake_task"
