@@ -6,6 +6,8 @@ rescue LoadError
   nil
 end
 
+task default: :build
+
 # Ensure missing RSpec development dependency doesn't kill gem install.
 begin
   require "rspec/core/rake_task"
